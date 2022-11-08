@@ -1,3 +1,12 @@
+## [2.0.2](https://github.com/AniCrad/indian-rail/compare/v2.0.1...v2.0.2) (2022-11-08)
+
+
+### Bug Fixes
+
+* typo mistake ([6fb866d](https://github.com/AniCrad/indian-rail/commit/6fb866d199a0b5fe00de6d301eb91aa05ad5a583))
+
+
+
 ## [2.0.1](https://github.com/AniCrad/indian-rail/compare/v2.0.0...v2.0.1) (2022-11-08)
 
 
