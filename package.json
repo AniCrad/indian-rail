@@ -15,7 +15,10 @@
     "url": "https://github.com/AniCrad/indian-rail.git"
   },
   "keywords": [
-    "Dojeto"
+    "Dojeto",
+    "indian-rail",
+    "indian-rail-api",
+    "rail-api"
   ],
   "author": "Dojeto",
   "license": "MIT",
