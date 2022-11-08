@@ -7,7 +7,7 @@ Simple wrapper of indian railway api for personal project
 ## Installing Indian-Rail
 
 ```bash
-$ npm install indian-rail
+$ npm install indian-rail-api
 ```
 
 # Using Indian-Rail
@@ -15,7 +15,7 @@ $ npm install indian-rail
 ## GetTrainInformation
 
 ```javascript
-const rail = require("indian-rail");
+const rail = require("indian-rail-api");
 
 rail.getTrainInformation(trainNo, callback(response);
 
@@ -29,7 +29,7 @@ rail.getTrainInformation(19034, (r) => {
 ## Get TrainBetweenStations
 
 ```javascript
-const rail = require("indian-rail");
+const rail = require("indian-rail-api");
 
 rail.getTrainBtwStation(from , to , callback(response);
 
@@ -48,7 +48,7 @@ The following resource may be helpful:
 ## Get TrainOnDate
 
 ```javascript
-const rail = require("indian-rail");
+const rail = require("indian-rail-api");
 
 rail.getTrainOnDate(from , to , date ,callback(response);
 
@@ -64,7 +64,7 @@ Note That `getTrainOnDate` takes date parameter only in `DD-MM-YYYY` format
 ## Get TrainOnDate
 
 ```javascript
-const rail = require("indian-rail");
+const rail = require("indian-rail-api");
 
 rail.getRoute(trainNo, callback(response);
 
