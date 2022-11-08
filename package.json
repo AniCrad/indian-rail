@@ -1,6 +1,6 @@
 {
   "name": "indian-rail",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Unofficial Indian Rail Api",
   "main": "app.js",
   "type": "module",
