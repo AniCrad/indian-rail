@@ -1,7 +1,9 @@
 import rp from "request-promise";
 
 const getTrainInformation = (trainNo, callback) => {
-  rp(`https://india-rail.herokuapp.com/trains/getTrain/?trainNo=${trainNo}`)
+  rp(
+    `https://indian-railway-api.cyclic.app/trains/getTrain/?trainNo=${trainNo}`
+  )
     .then((resp) => {
       callback(resp);
     })
@@ -12,7 +14,7 @@ const getTrainInformation = (trainNo, callback) => {
 
 const getTrainBtwStation = (from, to, callback) => {
   rp(
-    `https://india-rail.herokuapp.com/trains/betweenStations/?from=${from}&to=${to}`
+    `https://indian-railway-api.cyclic.app/trains/betweenStations/?from=${from}&to=${to}`
   )
     .then((resp) => {
       callback(resp);
@@ -24,7 +26,7 @@ const getTrainBtwStation = (from, to, callback) => {
 
 const getTrainOnDate = (from, to, date, callback) => {
   rp(
-    `https://india-rail.herokuapp.com/trains/gettrainon?from=${from}&to=${to}&date=${date}`
+    `https://indian-railway-api.cyclic.app/trains/gettrainon?from=${from}&to=${to}&date=${date}`
   )
     .then((resp) => {
       callback(resp);
@@ -35,7 +37,7 @@ const getTrainOnDate = (from, to, date, callback) => {
 };
 
 const getRoute = (trainNo, callback) => {
-  rp(`https://india-rail.herokuapp.com/trains/getRoute?trainNo=${trainNo}`)
+  rp(`https://indian-railway-api.cyclic.app/trains/getRoute?trainNo=${trainNo}`)
     .then((resp) => {
       callback(resp);
     })
