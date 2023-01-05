@@ -1,3 +1,12 @@
+## [2.0.4](https://github.com/AniCrad/indian-rail/compare/v2.0.2...v2.0.4) (2022-11-08)
+
+
+### Bug Fixes
+
+* bump to version 2.0.3 ([a16ce83](https://github.com/AniCrad/indian-rail/commit/a16ce83ea3feeef407ea77e8ed1d16379ec7e4dc))
+
+
+
 ## [2.0.2](https://github.com/AniCrad/indian-rail/compare/v2.0.1...v2.0.2) (2022-11-08)
 
 
