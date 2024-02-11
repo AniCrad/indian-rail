@@ -8,6 +8,7 @@ Note the above link is for docs for integration in your application you can use 
 ```java
 Note : this API may not work in future so, use any hosting service to host the code inside the Scripts folder.
 ```
+Simple wrapper of indian railway api for personal project
 # Getting Started with Indian-Rail
 
 ## Installing Indian-Rail
