@@ -1,0 +1,4 @@
+requests==2.31.0
+beautifulsoup4==4.12.3
+fastapi==0.109.2
+uvicorn==0.27.0.post1
