@@ -1,12 +1,11 @@
 # Introduction
-```
 API for getting the Indian railway PNR statis.
 [Yoc can try the API at ](https://pnr-status-for-railways-api.onrender.com/docs)
 
 Note the above link is for docs for integration in your application you can use the below link
 
 [API(cahage the pnr number according to your needs)](https://pnr-status-for-railways-api.onrender.com/status?pnr=1234567890)
-
+```java
 Note : this API may not work in future so, use any hosting service to host the code inside the Scripts folder.
 ```
 # Getting Started with Indian-Rail
